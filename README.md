@@ -10,9 +10,9 @@ conda create -n deep-learning python=3.8
 conda install pytorch torchvision -c pytorch 
 pip install -r requirements.txt
 ##
-Extra thing to get Keras working ... latest drivers so 
+Extra thing to get Keras working ... is to install latest NVIDIA drivers, then verify that
 nvcc --version, nvidia-smi   --> works
-and then cuda tools if you cant see cuda version on nvidia-smi box
+*also install cuda tools if you cant see cuda version on nvidia-smi box
 
 ## Important!  The latest requiremts are included in this folder(UNET-Using-Numpy)
 
