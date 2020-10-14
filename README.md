@@ -1,12 +1,12 @@
 # UNET-Using-Numpy
 
 ### Environment recreation ###
-http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install
+-Install miniconda3-
 conda install git
 git clone https://github.com/udacity/deep-learning-v2-pytorch.git
 cd deep-learning-v2-pytorch
-conda install numpy jupyter notebook
 conda create -n deep-learning python=3.8
+conda install numpy jupyter notebook
 conda install pytorch torchvision -c pytorch 
 pip install -r requirements.txt
 ##
