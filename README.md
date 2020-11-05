@@ -10,7 +10,7 @@ conda install numpy jupyter notebook
 conda install pytorch torchvision -c pytorch 
 pip install -r requirements.txt
 ##
-Extra thing to get Keras working ... is to install latest NVIDIA drivers, then verify that
+Extra thing to get Keras working on GPU (https://www.youtube.com/watch?v=tPq6NIboLSc&ab_channel=thehardwareguy) ...  +  install latest NVIDIA drivers, then verify that
 nvcc --version, nvidia-smi   --> works
 *also install cuda tools if you cant see cuda version on nvidia-smi box
 
