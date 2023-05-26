@@ -97,7 +97,7 @@ termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
 tifffile==2020.5.7
-tornado==6.0.4
+tornado==6.3.2
 tqdm==4.46.0
 traitlets==4.3.3
 typing-extensions==3.7.4.2
